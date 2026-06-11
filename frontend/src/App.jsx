@@ -26,7 +26,9 @@ function App() {
           style={{ width: "100%", marginBottom: "10px" }}
         />
 
-        <button>Login</button>
+       <button onClick={() => alert("Login Successful")}>
+        Login
+      </button>
       </div>
     </div>
   );
